@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  base: "/next-gsap/",
+  /* config options here */
 };
 
 export default nextConfig;
