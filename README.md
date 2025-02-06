@@ -9,9 +9,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Project Structure
 - **React** — Library for building user interfaces.
 - **TypeScript** — Strictly typed JavaScript for reliable code.
-- **Next** — 
+- **Next** — React framework for building server-rendered web applications.
 - **Tailwind CSS** — Utility-first CSS framework for styling.
-- **Gsap** — Animation library.
+- **Gsap** — Animation library for high-performance animations.
+- **Lucide** React — A library of open-source icons for React.
+- **ESLint** — A static code analysis tool to ensure code quality and consistency.
 
 ## Installation & Setup
 
