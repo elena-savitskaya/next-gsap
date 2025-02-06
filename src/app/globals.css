@@ -19,3 +19,24 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.text-style {
+  font-size: 12vw;
+  font-weight: 600;
+  line-height: 200%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.container-style {
+  position: absolute;
+  top: -6rem;
+  width: 10rem;
+  height: 10rem;
+  transform: scale(0);
+  left: 50%;
+  transform: translateX(-50%);
+}

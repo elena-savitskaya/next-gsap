@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-export default {
+const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,11 +8,27 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#ffffff",
+        foreground: "#171717",
+        "background-dark": "#0a0a0a",
+        "foreground-dark": "#ededed",
+      },
+      fontFamily: {
+        anton: ["Anton", "sans-serif"],
+      },
+      spacing: {
+        "size-40": "40vw",
+        "size-44": "44px",
       },
     },
   },
   plugins: [],
-} satisfies Config;
+};
+
+export default config;
