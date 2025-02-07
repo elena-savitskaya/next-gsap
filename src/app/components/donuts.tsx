@@ -5,7 +5,7 @@ import Image from "next/image";
 import React, { useRef, useState } from "react";
 import gsap from "gsap";
 
-export const DonutSection = () => {
+export const DonutsSection = () => {
   const [step, setStep] = useState<number>(1);
 
   const appleContainerRef = useRef(null);
@@ -28,6 +28,7 @@ export const DonutSection = () => {
   const timeLine = useRef(gsap.timeline({ paused: true }));
 
   const handleNext = () => {
+    timeLine.current.clear();
     if (step === 1) {
       timeLine.current = gsap
         .timeline()

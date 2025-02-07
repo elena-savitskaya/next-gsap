@@ -14,10 +14,10 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        background: "#ffffff",
-        foreground: "#171717",
-        "background-dark": "#0a0a0a",
-        "foreground-dark": "#ededed",
+        white: "#ffffff",
+        black: "#000000",
+        primary: "#526371",
+        secondary: "#e8e9eb",
       },
       fontFamily: {
         anton: ["Anton", "sans-serif"],
